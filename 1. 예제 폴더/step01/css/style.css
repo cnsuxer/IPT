@@ -31,6 +31,14 @@ main{
     padding-top:48px;
     background-color:#aaa;
 }
+.main-images{
+    height:70%;
+    background-color:#bbb;
+}
+.thumb_images{
+    height:30%;
+    background-color:#ccc;
+}
 footer{
     background-color:#eee;
 }
