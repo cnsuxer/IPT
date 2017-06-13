@@ -1,4 +1,4 @@
-# **IPT** - **I**'m **P**ublish **T**oo
+# **IPT** - **I**'m **P**ublisher **T**oo
 
 > 안녕하세요.LG CNS UX팀 퍼블리싱 스터디를 위한 저장소입니다. 
 > 
