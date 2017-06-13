@@ -4,6 +4,7 @@
 > 
 > 본 가이드를 참조하여 설치 및 환경을 구성해주시면 됩니다.
 
+
 ## 설치 파일
 
 1. [git 다운로드 페이지](https://git-scm.com/)
@@ -31,6 +32,7 @@
    - `Meterial Icon Theme`
    - `CSS Peek`
    - `IntelliSense for CSS class names`
+
 
 ## git 사용규칙
 
