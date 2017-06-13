@@ -27,6 +27,7 @@
 
 1. 자신이 원하는 폴더로 가서 `shift+마우스 오른쪽` 클릭 후 명령창에 `code ./` 입력해서 해당폴더에서 프로젝트 시작
 2. extension메뉴에서 필요한 플러그인 설치합니다.
+
    - `HTML Snippets`
    - `Beautify`
    - `Meterial Icon Theme`
