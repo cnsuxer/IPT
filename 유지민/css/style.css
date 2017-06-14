@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: #333;
+    color: #222;
     list-style: none;
 }
 
@@ -19,4 +19,19 @@ body {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     background-color: #fff;
     font-style: normal;
+}
+nav{
+
+}
+main{
+
+}
+main .main_images{
+
+}
+main .thumb_images{
+
+}
+footer{
+
 }
