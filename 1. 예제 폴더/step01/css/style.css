@@ -33,13 +33,13 @@ main{
 }
 .main-images{
     height:73%;
-    background: url(../images/main1.png) #fafafa;
+    background: url(../images/main1.png) #fafafa center no-repeat;
 }
 .thumb-images{
     height:27%;
-    background: url(../images/thumb.png) #fafafa;
+    background: url(../images/thumb.png) #fafafa center no-repeat;
 }
 footer{
     height:35%;
-    background: url(../images/footer.png) #fafafa;
+    background: url(../images/footer.png) #fafafa center no-repeat;
 }
