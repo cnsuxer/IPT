@@ -13,17 +13,22 @@ body{
     line-height: 1.52947;
     font-weight: 400;
     letter-spacing: -.021em;
-    font-family: "SF Pro Text",
-    "SF Pro Icons",
-    "Helvetica Neue",
-    "Helvetica",
-    "Arial",
-    sans-serif;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     background-color: #fff;
     font-style: normal;
 }
-nav {}
-main {}
-main .main_images {}
-main .thumb_images {}
-footer {}
+nav{
+
+}
+main{
+
+}
+main .main_images{
+
+}
+main .thumb_images{
+
+}
+footer{
+    
+}

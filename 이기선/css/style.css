@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-decoration: none;
+    /*a의 밑줄같은거 없애기 */
+    list-style: none;
+    /*li의 불릿같은거 없애기 */
+}
+body {
+    font-size: 17px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -.021em; /*자간*/
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #fff;
+    font-style: normal; 
+}
+nav{
+
+}
+main {
+
+}
+main .main_images{
+
+}
+main .thumb_images{
+
+}
