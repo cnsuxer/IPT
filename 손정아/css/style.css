@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    color:#bf5a5a;
+    color:#333;
     list-style: none;
     text-decoration: none;
 }
@@ -10,7 +10,7 @@ html,body{
 }
 body{
     font-size: 17px;
-line-height: 1.52947;
+    line-height: 1.52947;
     font-weight: 400;
     letter-spacing: -.021em;
     font-family: "SF Pro Text",
