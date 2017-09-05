@@ -19,21 +19,49 @@ body{
 }
 
 nav{
-    
+    position: absolute;
+    top:0;
+    width:100%;
+    height: 48px;
+    background: #323232;
+}
+
+nav div{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+}
+
+nav div li{
+    display: inline-block;
+    font-size:14px; 
+    padding: 0 10px;
+}
+
+nav div li a{
+    color: #fff;
+    max-width: 47.6px;
 }
 
 main{
-
+    height: 100%;
+    padding-top: 48px;
+    background: #fff;
 }
 
 main .main_images{
-
+    height: 73%;
+    background: #ccc;
 }
 
 main .thumb_images{
+    height: 27%;
+    background: #ddd;
 
 }
 
 footer{
-
+    height: 350px;
+    background: #f2f2f2;
 }
