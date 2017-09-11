@@ -7,6 +7,8 @@
 
 ## 설치 파일
 
+> 우선 아래 두 프로그램을 다운받고, 설치합니다. (Default 설정 그대로 설치)
+
 1. [git 다운로드 페이지](https://git-scm.com/)
 
 2. [VScode 다운로드 페이지](https://code.visualstudio.com/)
@@ -14,14 +16,15 @@
 
 ## git 사용 방법
 
-1. 자신의 로컬에 저장할 폴더를 하나 만들어 줍니다.
+1. 자신의 로컬에 원격저장소를 옮겨올 폴더를 하나 만들어 줍니다.
 2. 해당 폴더에 들어가서 마우스 오른쪽 클릭하여 `git Base here`를 실행합니다.
 3. 명령창에 `git clone https://github.com/cnsuxer/IPT.git`를 입력하여 원격저장소를 로컬 저장소로 복제합니다.
 4. 로컬 저장소를 원격 저장소에 맞춰 갱신: `git pull`
 5. 파일들을 수정 후에 작업에 추가: `git add <파일 이름> git add *`
 6. 추가된 작업들을 확정: `git commit -m "수정파일에 대한 설명"`
-7. 원격저장소안 'master'브랜치에 등록: `git push origin master`
-
+7. 원격저장소안 'master'브랜치에 등록: `git push origin master` 
+- 로그인 창이 나오면 ID: `cnsuxer` PW: `cnsuxer!1` 입력
+- push 중 오류 발생하면 `git pull` 한 후 재실행
 
 ## VScode 사용 방법
 
@@ -34,6 +37,7 @@
    - `CSS Peek`
    - `IntelliSense for CSS class names`
 
+3. 예제 폴더 step01에 있는 내용을 따라 해봅니다. (9월 6일까지 실습 후 저장소에 push하기)
 
 ## git 사용규칙
 
