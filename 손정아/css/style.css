@@ -22,8 +22,27 @@ body{
     background-color: #fff;
     font-style: normal;
 }
-nav {}
-main {}
-main .main_images {}
-main .thumb_images {}
-footer {}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    background: url(../images/header.png) #323232 center;
+}
+main {
+    padding-top: 48px;
+    height: 100%;
+    background-color: #fff;
+}
+main .main_images {
+    height: 73%;
+    background: url(../images/main1.png) #fafafa top center no-repeat;
+}
+main .thumb_images {
+    height: 27%;
+    background: url(../images/thumb.png) #fafafa top center no-repeat;}
+footer {
+    height: 351px;
+    background: url(../images/footer.png) #fafafa center no-repeat;}
+}
