@@ -26,9 +26,8 @@ nav{
 }
 
 main{
-    height:100%;
-    padding-top:48px;
-    background-color:#fff;
+    position: relative;
+    top:0;
 }
 .main-images{
     height:73%;
@@ -43,6 +42,7 @@ footer{
 }
 
 /* 2017-09-11*/
+/* header start */
 
 #ac-globalnav, #ac-globalnav:before, #ac-globalnav:after, #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar, #ac-gn-segmentbar:before, #ac-gn-segmentbar:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
     box-sizing: content-box;
@@ -259,4 +259,157 @@ footer{
     padding: 0;
     border: 0;
     top: 50%;
+}
+
+/* header end */
+/* main start */
+
+.main .homepage-section .homepage-section-positions, .main .homepage-section .homepage-section-item {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style-type: none;
+}
+
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 100vh;
+    max-height: 100%;
+    min-height: 540px;
+}
+
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 100%;
+}
+
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-slide-wrapper {
+    height: 100%;
+}
+
+.main .homepage-section .homepage-section-positions, .main .homepage-section .homepage-section-item {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style-type: none;
+}
+
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    will-change: transform;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 {
+    background-color: #121212;
+}
+
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit .backing-link, .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit .backing-link:hover {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    right: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    opacity: 1;
+    z-index: 2;
+}
+
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 a,
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 h1,
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 h2
+{
+    color: #fff;
+}
+
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item-copy-wrapper {
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 .gallery-item-copy-wrapper {
+    position: absolute;
+    top: 44px;
+    height: 217px;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 .gallery-item-copy-wrapper .inner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit a:not(.backing-link) {
+    pointer-events: all;
+    position: relative;
+    z-index: 4;
+}
+
+.typography-tagline-elevated {
+    font-size: 48px;
+    line-height: 1.04167;
+    font-weight: 500;
+    letter-spacing: .006em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item-image-element {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 110%;
+}
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 .gallery-item-image-element .gallery-image-iphone {
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/home/dj/images/enhanced-gallery-heroes/iphone/iphone_7_large.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+    top: 3%;
+    left: 0;
+    background-size: auto 100%;
+    background-position: calc(50% + 72px) 0;
+}
+
+/* media query */
+@media only screen and (min-width: 1442px)
+main.built.css:1
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery.no-is-solo-section {
+    height: calc(100vh - 200px);
 }
