@@ -99,3 +99,11 @@ footer {
     z-index: 1;
     vertical-align: top;
 }
+
+#ac-globalnav li {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    vertical-align: top;
+}
