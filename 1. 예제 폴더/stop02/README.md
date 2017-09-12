@@ -7,4 +7,4 @@
 
 예제 미리보기
 
-![step01 preview](doc/step01_priview.PNG)
+![step02 preview](doc/step02_priview.PNG)
