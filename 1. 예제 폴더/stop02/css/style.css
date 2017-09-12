@@ -24,7 +24,6 @@ nav{
     width:100%;
     height:48px;
 }
-
 main{
     position: relative;
     top:0;
@@ -51,7 +50,6 @@ footer{
     pointer-events: auto;
     letter-spacing: normal;
 }
-
 #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
     font-size: 1em;
     font-family: inherit;
@@ -59,12 +57,10 @@ footer{
     line-height: inherit;
     text-align: inherit;
 }
-
 #ac-globalnav .ac-gn-link:lang(ko) {
     letter-spacing: 0em;
     font-family: "SF Pro KR","SF Pro Text","Yoon Gothic","Myriad Set Pro","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-
 #ac-globalnav{
     position: absolute;
     top: 0;
@@ -87,7 +83,6 @@ footer{
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
 }
-
 #ac-globalnav .ac-gn-content {
     margin: 0 auto;
     max-width: 980px;
@@ -103,7 +98,6 @@ footer{
     pointer-events: auto;
     letter-spacing: normal;
 }
-
 #ac-globalnav .ac-gn-list {
     cursor: default;
     margin: 0 -10px;
@@ -118,13 +112,11 @@ footer{
     user-select: none;
     list-style: none;
 }
-
 .ac-gn-list:after {
     content: "";
     display: inline-block;
     width: 100%;    
 }
-
 #ac-globalnav .ac-gn-item {
     display: inline-block;
     position: relative;
@@ -132,7 +124,6 @@ footer{
     z-index: 1;
     vertical-align: top;
 }
-
 #ac-globalnav .ac-gn-link {
     font-size: 14px;
     line-height: 3.14286;
@@ -156,7 +147,6 @@ footer{
     letter-spacing: 0em;
     font-family: "SF Pro KR","SF Pro Text","Yoon Gothic","Myriad Set Pro","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-
 #ac-globalnav .ac-gn-link-apple {
     background-size: 20px 44px;
     background-repeat: no-repeat;
@@ -164,7 +154,6 @@ footer{
     background-position: center center;
     width: 20px;
 }
-
 #ac-globalnav .ac-gn-link-mac {
     background-size: 28px 44px;
     background-repeat: no-repeat;
@@ -175,7 +164,6 @@ footer{
     width: 2em;
     max-width: 47.6px;
 }
-
 #ac-globalnav .ac-gn-link-ipad {
     background-size: 27px 44px;
     background-repeat: no-repeat;
@@ -186,7 +174,6 @@ footer{
     width: 1.92857em;
     max-width: 45.9px;
 }
-
 #ac-globalnav .ac-gn-link-iphone {
     background-size: 44px 44px;
     background-repeat: no-repeat;
@@ -197,7 +184,6 @@ footer{
     width: 3.14286em;
     max-width: 74.8px;
 }
-
 #ac-globalnav .ac-gn-link-watch {
     background-size: 40px 45px;
     background-repeat: no-repeat;
@@ -208,7 +194,6 @@ footer{
     width: 2.85714em;
     max-width: 68px;
 }
-
 #ac-globalnav .ac-gn-link-music {
     background-size: 37px 45px;
     background-repeat: no-repeat;
@@ -219,7 +204,6 @@ footer{
     width: 2.64286em;
     max-width: 62.9px;
 }
-
 #ac-globalnav .ac-gn-link-support {
     background-size: 45px 44px;
     background-repeat: no-repeat;
@@ -230,7 +214,6 @@ footer{
     width: 3.21429em;
     max-width: 76.5px;
 }
-
 #ac-globalnav .ac-gn-link-search {
     background-size: 16px 44px;
     background-repeat: no-repeat;
@@ -238,7 +221,6 @@ footer{
     background-position: center center;
     width: 16px;
 }
-
 #ac-globalnav .ac-gn-link-bag {
     background-size: 14px 45px;
     background-repeat: no-repeat;
@@ -246,7 +228,6 @@ footer{
     background-position: center center;
     width: 14px;
 }
-
 #ac-globalnav .ac-gn-link-text {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
@@ -260,7 +241,6 @@ footer{
     border: 0;
     top: 50%;
 }
-
 /* header end */
 /* main start */
 
@@ -270,7 +250,6 @@ footer{
     position: relative;
     list-style-type: none;
 }
-
 .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery {
     position: relative;
     z-index: 1;
@@ -279,25 +258,21 @@ footer{
     max-height: 100%;
     min-height: 540px;
 }
-
 .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery {
     position: relative;
     z-index: 1;
     overflow: hidden;
     height: 100%;
 }
-
 .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-slide-wrapper {
     height: 100%;
 }
-
 .main .homepage-section .homepage-section-positions, .main .homepage-section .homepage-section-item {
     margin: 0;
     padding: 0;
     position: relative;
     list-style-type: none;
 }
-
 .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item {
     display: block;
     position: absolute;
@@ -310,17 +285,14 @@ footer{
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
-
 .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-
 .main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 {
     background-color: #121212;
 }
-
 .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit .backing-link, .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit .backing-link:hover {
     display: block;
     position: absolute;
@@ -339,14 +311,12 @@ footer{
     opacity: 1;
     z-index: 2;
 }
-
 .main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 a,
 .main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 h1,
 .main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 h2
 {
     color: #fff;
 }
-
 .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item-copy-wrapper {
     position: absolute;
     z-index: 1000;
@@ -356,7 +326,6 @@ footer{
     -ms-user-select: none;
     user-select: none;
 }
-
 .main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 .gallery-item-copy-wrapper {
     position: absolute;
     top: 44px;
@@ -365,7 +334,6 @@ footer{
     right: 0;
     color: #fff;
 }
-
 .main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 .gallery-item-copy-wrapper .inner {
     position: absolute;
     top: 50%;
@@ -374,13 +342,11 @@ footer{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-
 .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit a:not(.backing-link) {
     pointer-events: all;
     position: relative;
     z-index: 4;
 }
-
 .typography-tagline-elevated {
     font-size: 48px;
     line-height: 1.04167;
