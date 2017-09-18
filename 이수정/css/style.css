@@ -26,13 +26,11 @@ nav {
     right: 0;
     width: 100%;
     height: 48px;
-    background: url(../images/header.png) #323232;
 }
 
 main {
-    height: 100%;
-    padding-top: 48px;
-    background-color: #fff;
+    position: relative;
+    top:0;
 }
 
 main .main_images {
@@ -48,4 +46,336 @@ main .thumb_images {
 footer {
     height:350px;
     background: url(../images/footer.png) #fafafa center no-repeat;
+}
+/* 2017-09-11*/
+/* header start */
+
+#ac-globalnav, #ac-globalnav:before, #ac-globalnav:after, #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar, #ac-gn-segmentbar:before, #ac-gn-segmentbar:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
+#ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+#ac-globalnav .ac-gn-link:lang(ko) {
+    letter-spacing: 0em;
+    font-family: "SF Pro KR","SF Pro Text","Yoon Gothic","Myriad Set Pro","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#ac-globalnav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: #333;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+#ac-globalnav .ac-gn-content {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    box-sizing: content-box;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
+#ac-globalnav .ac-gn-list {
+    cursor: default;
+    margin: 0 -10px;
+    width: auto;
+    height: 44px;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    list-style: none;
+}
+.ac-gn-list:after {
+    content: "";
+    display: inline-block;
+    width: 100%;    
+}
+#ac-globalnav .ac-gn-item {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    vertical-align: top;
+}
+#ac-globalnav .ac-gn-link {
+    font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    opacity: 1;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-tap-highlight-color: transparent;
+    outline-offset: -7px;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR","SF Pro Text","Yoon Gothic","Myriad Set Pro","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#ac-globalnav .ac-gn-link-apple {
+    background-size: 20px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/apple/image_large.svg);
+    background-position: center center;
+    width: 20px;
+}
+#ac-globalnav .ac-gn-link-mac {
+    background-size: 28px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/links/mac/image_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 2em;
+    max-width: 47.6px;
+}
+#ac-globalnav .ac-gn-link-ipad {
+    background-size: 27px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/links/ipad/image_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 1.92857em;
+    max-width: 45.9px;
+}
+#ac-globalnav .ac-gn-link-iphone {
+    background-size: 44px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/links/iphone/image_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 3.14286em;
+    max-width: 74.8px;
+}
+#ac-globalnav .ac-gn-link-watch {
+    background-size: 40px 45px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/links/watch/image_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 2.85714em;
+    max-width: 68px;
+}
+#ac-globalnav .ac-gn-link-music {
+    background-size: 37px 45px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/links/music/image_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 2.64286em;
+    max-width: 62.9px;
+}
+#ac-globalnav .ac-gn-link-support {
+    background-size: 45px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/links/support/image_large.svg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 3.21429em;
+    max-width: 76.5px;
+}
+#ac-globalnav .ac-gn-link-search {
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/search/image_large.svg);
+    background-position: center center;
+    width: 16px;
+}
+#ac-globalnav .ac-gn-link-bag {
+    background-size: 14px 45px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR/images/globalnav/bag/image_large.svg);
+    background-position: center center;
+    width: 14px;
+}
+#ac-globalnav .ac-gn-link-text {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    top: 50%;
+}
+/* header end */
+/* main start */
+
+.main .homepage-section .homepage-section-positions, .main .homepage-section .homepage-section-item {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style-type: none;
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 100vh;
+    max-height: 100%;
+    min-height: 540px;
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 100%;
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-slide-wrapper {
+    height: 100%;
+}
+.main .homepage-section .homepage-section-positions, .main .homepage-section .homepage-section-item {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style-type: none;
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    will-change: transform;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 {
+    background-color: #121212;
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit .backing-link, .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit .backing-link:hover {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    right: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    opacity: 1;
+    z-index: 2;
+}
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 a,
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 h1,
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 h2
+{
+    color: #fff;
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item-copy-wrapper {
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 .gallery-item-copy-wrapper {
+    position: absolute;
+    top: 44px;
+    height: 217px;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 .gallery-item-copy-wrapper .inner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item .promo-managed-unit a:not(.backing-link) {
+    pointer-events: all;
+    position: relative;
+    z-index: 4;
+}
+.typography-tagline-elevated {
+    font-size: 48px;
+    line-height: 1.04167;
+    font-weight: 500;
+    letter-spacing: .006em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery .gallery-item-image-element {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 110%;
+}
+.main #section-enhanced-gallery-heroes .homepage-section-positions>.homepage-section-item .iphone-7 .gallery-item-image-element .gallery-image-iphone {
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/home/dj/images/enhanced-gallery-heroes/iphone/iphone_7_large.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+    top: 3%;
+    left: 0;
+    background-size: auto 100%;
+    background-position: calc(50% + 72px) 0;
 }
