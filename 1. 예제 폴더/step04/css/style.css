@@ -741,123 +741,78 @@ footer {
 
 /* media query */
 
-@media only screen and (min-width: 1442px) {
-    .main #section-enhanced-gallery-heroes.homepage-section.enhanced-gallery.no-is-solo-section {
-        height: calc(100vh - 200px);
-    }
-}
-
+/* Tablet 및 Mobile */
 @media only screen and (max-width: 1068px) {
+    .main .section-item  {
+        height: 620px;
+    }
     .main .section-item .title {
         padding-top: 70px;
     }
     .main .section-item .title h2 {
-        font-size: 44px;
+        font-size: 40px;
         line-height: 1.09091;
         font-weight: 600;
         letter-spacing: -.002em;
     }
     .main .section-item .title h3 {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.18182;
         font-weight: 400;
         letter-spacing: .01em;
     }
     .main .section-item.iphone8 .image-wrap{
         position: absolute;
-        left: calc(50% - 275px);
+        left: calc(30% - 275px);
         right: none;
     }
 }
 
+/* Tablet  */
 @media only screen and (max-width: 1068px) and (min-height: 736px) and (min-width: 736px) {
-    .main #section-tier-one-heroes.homepage-section .unit-wrapper, .main #section-tier-one-heroes.homepage-section .tier-one-hero {
-        height: 650px;
-    }
     .main .section-item.iphone8 .image-wrap {
-        width: 575px;
-        height: 434px;
-        background-size: 575px 434px;
+        width: 560px;
+        height: 420px;
+        background-size: 560px;
         background-repeat: no-repeat;
         background-image: url(https://images.apple.com/v/home/dk/images/tier-one-heroes/iphone-8/iphone_8_mediumtall.jpg);
     }
 }
-@media only screen and (max-width: 1044px){
-    #globalfooter {
-        min-width: 320px;
-    }
-}
+/* Mobile  */
 @media only screen and (max-width: 767px) {
+
+    /* nav */
     #globalnav {
         min-width: 320px;
-    }
-    #globalnav {
         max-height: none;
-        -webkit-transition: background 0.35s linear,height 0.35s ease-in;
-        transition: background 0.35s linear,height 0.35s ease-in;
     }
     #globalnav .content {
-        padding: 0;
         position: absolute;
-        top: 0;
         width: 100%;
         height: 100%;
+        padding: 0;
     }
     #globalnav .header {
         display: block;
     }
     #globalnav .bag {
-        right: 0;
-        display: none;
+        display:block;
         position: absolute;
-        top: 0;
-        width: auto;
-        z-index: 1;
-    }
-    #globalnav .header .bag-small {
-        display: block;
-    }
-    #globalnav .menuicon {
-        display: block;
-    }
-    #globalnav .header .apple {
-        display: block;
+        right: 0;
     }
     #globalnav .link-apple {
+        height:48px;
         background-size: 18px 48px;
         background-repeat: no-repeat;
         background-image: url(https://www.apple.com/ac/globalnav/3/ko_KR//images/globalnav/apple/image_small.svg);
     }
-    #globalnav .link {
-        font-size: 17px;
-        line-height: 2.52947;
-        letter-spacing: -.021em;
-        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    #globalnav .content .list {
+        display:none;
     }
-    #globalnav .list {
-        position: absolute;
-        z-index: 2;
-        top: 44px;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: 0;
-        padding: 0 48px;
-        height: auto;
-        box-sizing: border-box;
-        overflow: hidden;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-        visibility: hidden;
-        -webkit-transition: visibility 0s linear 1s;
-        transition: visibility 0s linear 1s;
-    }
-    .main .section-item.iphone8 .image-wrap{
-        width: 267px;
-        height: 357px;
-        background-size: 267px 357px;
-        background-repeat: no-repeat;
-        background-image: url(https://images.apple.com/v/home/dk/images/tier-one-heroes/iphone-8/iphone_8_small.jpg);
+
+    /* main */
+    main {
+        margin-bottom: 10px;
     }
     .main .section-item {
         height: 500px;
@@ -868,39 +823,57 @@ footer {
     .main .section-item .title h2 {
         font-size: 32px;
         line-height: 1.125;
-        font-weight: 600;
-        letter-spacing: .004em;
-        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     }
     .main .section-item .title h3 {
         font-size: 19px;
         line-height: 1.42115;
-        font-weight: 400;
-        letter-spacing: .012em;
-        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+    .main .section-item.iphone8 .image-wrap{
+        width: 267px;
+        height: 357px;
+        background-image: url(https://images.apple.com/v/home/dk/images/tier-one-heroes/iphone-8/iphone_8_small.jpg);        
+        background-repeat: no-repeat;
+        background-size: 267px 357px;
+        left: 0%;
     }
     .main .section-item.iphonex .image-wrap {
         top: 133px;
-        background-image: url('https://images.apple.com/v/home/dk/images/tier-one-heroes/iphone-x/iphone_x_small.jpg');
         width: 167px;
-        height: 333px;
-        background-size: 167px 333px;
+        height: 333px;        
+        background-image: url(https://images.apple.com/v/home/dk/images/tier-one-heroes/iphone-x/iphone_x_small.jpg);
         background-repeat: no-repeat;
+        background-size: 167px 333px;
     }
     .main .section-item.watch .image-wrap {
         top: 140px;
-        background-repeat: no-repeat;
-        background-image: url(https://images.apple.com/kr/home/dk/images/tier-one-heroes/apple-watch/watch_small.jpg);
         width: 302px;
-        height: 338px;
+        height: 338px;        
+        background-image: url(https://images.apple.com/kr/home/dk/images/tier-one-heroes/apple-watch/watch_small.jpg);
+        background-repeat: no-repeat;
         background-size: 302px 338px;
     }
-    main .main-sub .section-item{
+    
+    /* sub main */
+    main .main-sub .section-item {
         width: 100%;
-        border-width: 12px;
-        border-left: 0;
-        border-right: 0;
-        border-top: 0;
+        padding: 0;
+    }
+    .main-sub {
+        padding:0;
+    }
+    main .main-sub .section-item.tv .image-wrap{
+        width: 100%;
+        background-image: url(../images/tv_4k_large_2x.jpg);
+        background-color: #010101;
+    }
+    main .main-sub .section-item.watchos .image-wrap{
+        width: 100%;
+        background-color: #010101;
+    }
+
+    /* footer */
+    #globalfooter {
+        min-width: 320px;
     }
     #globalfooter .f-directory {
         padding-top: 1px;
@@ -914,44 +887,25 @@ footer {
     #globalfooter .f-section {
         border-bottom: 1px solid #d6d6d6;
         overflow: hidden;
-        pointer-events: auto;
-    }
-    #globalfooter .f-section-anchor {
-        display: block;
     }
     #globalfooter .f-section-list {
-        margin: 0;
+        visibility: hidden;
+        position: absolute;
+        /* margin: 0;
         overflow: hidden;
         padding-top: 5px;
         padding-bottom: 16px;
-        position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
-        visibility: hidden;
-        z-index: -1;
-        -webkit-transform: translateY(-100px);
-        -ms-transform: translateY(-100px);
-        transform: translateY(-100px);
-    }
-    #globalfooter .f-section-item {
-        margin-bottom: 0;
-    }
-    #globalfooter .f-section-link {
-        padding: 6px 14px;
-        display: block;
+        z-index: -1; */
     }
     #globalfooter .f-section-title {
         margin-bottom: 0;
         padding-top: 10px;
         padding-bottom: 10px;
-        background: #f2f2f2;
         cursor: pointer;
         position: relative;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
         z-index: 2;
     }
     #globalfooter .f-section-title:after {
@@ -961,20 +915,12 @@ footer {
         font-weight: normal;
         margin-top: -2px;
         margin-right: 8px;
-        -webkit-transition: -webkit-transform .3s ease;
-        transition: -webkit-transform .3s ease;
-        transition: transform .3s ease;
-        transition: transform .3s ease, -webkit-transform .3s ease;
     }
     #globalfooter .f-directory+.f-footer {
         padding-top: 17px;
     }
     #globalfooter .f-footer {
         padding-bottom: 19px;
-        padding-bottom: calc(19px + constant(safe-area-inset-bottom));
-    }
-    #globalfooter .f-directory+.f-footer .f-shop {
-        border-bottom: none;
     }
     #globalfooter .f-locale {
         left: -1px;
@@ -987,8 +933,5 @@ footer {
     #globalfooter .f-legal-copyright, #globalfooter .f-links {
         margin-right: 0;
         float: none;
-    }
-    .main-sub {
-        padding:0;
     }
 }
