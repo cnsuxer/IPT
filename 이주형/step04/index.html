@@ -12,10 +12,7 @@
     <nav id="globalnav">
         <div class="content">
             <ul class="header">
-                <li class="item menuicon" onclick="menuDrop()">
-                    <span></span>
-                    <span></span>
-                </li>
+
                 <li class="item apple">
                     <a class="link link-apple" id="firstfocus-small">
                         <span class="text">Apple</span>
@@ -26,26 +23,6 @@
                         <span class="text">쇼핑백</span>
                         <span class="bag-badge"></span>
                     </a>
-                </li>
-            </ul>
-            <ul class="mobile-list">
-                <li class="item menu mac">
-                    <a class="link link-mac"><span class="text">Mac</span></a>
-                </li>
-                <li class="item menu ipad">
-                    <a class="link link-ipad"><span class="text">iPad</span></a>
-                </li>
-                <li class="item menu iphone">
-                    <a class="link link-iphone"><span class="text">iPhone</span></a>
-                </li>
-                <li class="item menu Watch">
-                    <a class="link link-watch"><span class="text">Watch</span></a>
-                </li>
-                <li class="item menu Music">
-                    <a class="link link-music"><span class="text">Music</span></a>
-                </li>
-                <li class="item menu support">
-                    <a class="link link-support"><span class="text">고객지원</span></a>
                 </li>
             </ul>
             <ul class="list">
@@ -260,14 +237,5 @@
         <!-- 푸터 (footer) -->
     </footer>
 </body>
-<script>
-    function menuDrop(){
-        var target=document.getElementById('globalnav');
-        if(!target.classList.contains('active')){
-            target.classList.add('active');
-        }else{
-            target.classList.remove('active');
-        }
-    }
-</script>
+
 </html>
