@@ -290,7 +290,9 @@ footer {
 
 
 /* 17.11.09 */
-
+#globalnav .mobile-list{
+    display: none;
+}
 #globalnav .header {
     display: none;
     position: absolute;
@@ -881,6 +883,7 @@ footer {
         bottom: 20px;
     }
     #globalnav .mobile-list{
+        display: block;
         visibility: hidden;
         margin-top: 60px;
         padding: 0 48px;
